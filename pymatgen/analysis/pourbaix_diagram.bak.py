@@ -839,7 +839,7 @@ class PourbaixPlotter(object):
             plt.plot(x, y, 'k-', linewidth=lw)
             if label_domains:
                 plt.annotate(generate_entry_label(entry), center, ha='center',
-                             va='center', fontsize=10, color="b")
+                             va='center', fontsize=20, color="b")
 
         plt.xlabel("pH")
         plt.ylabel("E (V)")
